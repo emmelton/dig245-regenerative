@@ -1,2 +1,61 @@
-
 /* css */
+.title {
+  text-align: center;
+}
+
+.intro {
+  text-align: center;
+}
+
+/* BUTTONS */
+.gameButton {
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #000000;
+  background-color: #FFE5A3;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.gameButton:hover {background-color: #E0C377}
+
+.gameButton:active {
+  background-color: #E0C377;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.difButton {
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #9AC6BB;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.difButton:hover {background-color: #6F988E}
+
+.difButton:active {
+  background-color: #6F988E;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.descr {
+  text-align: center;
+}
+
+.facts {
+  text-align: center;
+}

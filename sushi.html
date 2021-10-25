@@ -1,38 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<!-- meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Sushi Go</title>
+  <title>Sushi Go</title>
 
-<!-- CSS -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-<link rel="stylesheet" href="assets/css/styles.css">
+  <!-- CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
+
 <body>
 
 
-<!-- visible content goes here -->
-<h1>THE CARD GAME GENERATOR</h1>
+  <!-- visible content goes here -->
+  <div class='container'>
 
-<p>The next game you should play, even if you have to make a new purchase, is...</p>
+    <div class='row'>
+      <div class="col-12">
+        <h1 class='title'>THE CARD GAME GENERATOR</h1>
+      </div>
+    </div>
+  </div>
 
-<h3>SUSHI GO</h3>
+  <div class='container'>
+    <div class='row'>
+      <p class='intro'>The next game you should play, even if you have to make a new purchase, is...</p>
+    </div>
+  </div>
 
-<p>Sushi Go is a fast-playing card game in which the goal is to collect the best combination of sushi dishes as they pass through your hand. You score points by making the most maki rolls or for collecting a full set of shashimi. Dip your nigiri in some wasabi to triple your points. But don’t forget that dessert is being served and will eat into your score. Gather as many points as possible, and if you collect the most, you win!</p>
+  <div class='row center'>
+    <div class="col-12">
+      <p scope='info'>Name</p>
+    </div>
+  </div>
 
-<p class='content'>108 cards <br> Rules of Play </p>
-<p class='rate'>8+</p>
-<p class='players'>2-8</p>
-<p class='time'>15 Minutes</p>
+  <div class='row center'>
+    <div class="col-12">
+      <p scope='info'>Description</p>
+    </div>
+  </div>
 
-<h3>GIVE ME A DIFFERENT GAME</h3>
+  <div class='row center'>
+    <div class="col-3">
+      <p scope='info'>Content</p>
+    </div>
 
-<!-- javascript -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
-<script src="assets/js/main.js"></script>
+
+
+    <div class="col-3">
+      <p scope='info'>Rating</p>
+    </div>
+
+
+
+    <div class="col-3">
+      <p scope='info'>Players</p>
+    </div>
+
+
+
+    <div class="col-3">
+      <p scope='info' id='game'>Time</p>
+    </div>
+  </div>
+
+
+  <div class='row'>
+    <div class="col-4">
+      <div class="col-12">
+        <button class="btn btn-outline-dark gen">Generate</button>
+      </div>
+      <button class='difButton'>GIVE ME A DIFFERENT GAME</button>
+    </div>
+  </div>
+  </div>
+  </div>
+
+  <!-- javascript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+  <script src="assets/js/main.js"></script>
 </body>
+
 </html>
