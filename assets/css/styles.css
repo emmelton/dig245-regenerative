@@ -1,6 +1,41 @@
 /* css */
+@media screen and (max-width: 2800px) {
+  h3 {
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  h3 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  h3 {
+    font-size: 25px;
+  }
+}
+
 .title {
+font-family: Bowlby One, cursive;
+font-style: normal;
+font-weight: normal;
+text-align: center;
+z-index: 2;
+font-size: 60px;
+}
+
+.arrayData {
   text-align: center;
+  font-size: 25px;
+  font-weight: lighter;
+  font-family: Yaldevi Colombo, sans-serif;
+}
+
+h3 {
+  font-size: 35px;
+    font-family: Sunflower, sans-serif;
 }
 
 .intro {
@@ -8,9 +43,11 @@
 }
 
 /* BUTTONS */
-.gameButton {
-  padding: 15px 25px;
+a {
+  padding: 15px 25px 15px 25px;
+  border: 10px;
   font-size: 24px;
+  font-family: Bowlby One, cursive;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
@@ -20,14 +57,20 @@
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
+  letter-spacing: 8px;
 }
 
-.gameButton:hover {background-color: #E0C377}
+a:hover {
+  background-color: #E0C377
+  color: #FFFFFF;
+  text-decoration: none;
+}
 
-.gameButton:active {
+a:active {
   background-color: #E0C377;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+  text-decoration: none;
 }
 
 .difButton {
@@ -51,6 +94,8 @@
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
+
 
 .descr {
   text-align: center;

@@ -11,6 +11,9 @@
   <!-- CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&family=Sunflower:wght@300;500;700&family=Yaldevi:wght@200;300;400;500&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -32,46 +35,47 @@
     </div>
   </div>
 
-  <div class='row center'>
-    <div class="col-12">
-      <p scope='info' id='game'></p>
-    </div>
-  </div>
-
-  <div class='row center'>
-    <div class="col-12">
-      <p scope='info' id='game'></p>
-    </div>
-  </div>
-
-  <div class='row center'>
-    <div class="col-3">
-      <p scope='info' id='game'></p>
+  <div class='container'>
+    <div class='row center'>
+      <div class="col-12">
+        <!-- <h3>NAME</h3> -->
+        <p scope='info' class='arrayData' id='game'></p>
+      </div>
     </div>
 
-
-
-    <div class="col-3">
-      <p scope='info'id='game'></p>
+    <div class='row center'>
+      <div class="col-12">
+        <!-- <h3>DESCRIPTION</h3> -->
+        <p scope='info' id='game'></p>
+      </div>
     </div>
 
+    <div class='row center'>
+      <div class="col-3 col-md-6">
+        <!-- <h3>CONTENT</h3> -->
+        <p scope='info' id='game'></p>
+      </div>
 
+      <div class="col-3 col-md-6">
+        <!-- <h3>RATING</h3> -->
+        <p scope='info' id='game'></p>
+      </div>
 
-    <div class="col-3">
-      <p scope='info' id='game'></p>
+      <div class="col-3 col-md-6">
+        <!-- <h3>PLAYERS</h3> -->
+        <p scope='info' id='game'></p>
+      </div>
+
+      <div class="col-3 col-md-6">
+        <!-- <h3>TIME</h3> -->
+        <p scope='info' id='game'></p>
+      </div>
     </div>
 
-
-
-    <div class="col-3">
-      <p scope='info' id='game'></p>
-    </div>
-  </div>
-
-
-  <div class='row'>
-    <div class="col-4">
-      <button class='difButton'>GIVE ME A DIFFERENT GAME</button>
+    <div class='row'>
+      <div class="col-12 text-center">
+        <button class='difButton' onClick="newGame()";>GIVE ME A DIFFERENT GAME</button>
+      </div>
     </div>
   </div>
   </div>
