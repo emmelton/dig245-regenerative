@@ -78,7 +78,7 @@ function game() {
   str += `
     <div class='row center mt-4'>
       <div class="col-12">
-        <a href='${data[r].link}'>${data[r].name}</a><br>
+        <a href='${data[r].link}' target='_blank'>${data[r].name}</a><br>
       </div>
     </div>
 
@@ -91,23 +91,23 @@ function game() {
 
     <div class='row center mt-5'>
       <div class="col-6 col-sm-3">
-      <h3>CONTENT</h3>
-        ${data[r].content}<br>
+      <h3 class='boxBackings'>CONTENT</h3>
+        <p class='boxBackings'>${data[r].content}</p><br>
       </div>
 
       <div class="col-6 col-sm-3">
-      <h3>RATING</h3>
-        ${data[r].rating}<br>
+      <h3 class='boxBackings'>RATING</h3>
+        <p class='boxBackings'>${data[r].rating}</p><br>
       </div>
 
       <div class="col-6 col-sm-3">
-      <h3>PLAYERS</h3>
-        ${data[r].players}<br>
+      <h3 class='boxBackings'>PLAYERS</h3>
+        <p class='boxBackings'>${data[r].players}</p><br>
       </div>
 
       <div class="col-6 col-sm-3">
-      <h3>TIME</h3>
-        ${data[r].time}<br>
+      <h3 class='boxBackings'>TIME</h3>
+        <p class='boxBackings'>${data[r].time}</p><br>
       </div>
 
   `;
@@ -125,11 +125,10 @@ function game() {
 
 // document.getElementById('game').innerHTML = data[0].name;
 
-document.getElementById('game').innerHTML = game();
 
-function newGame() {
+ function newGame() {
   document.getElementById('game').innerHTML = game();
-  }
+   }
 
 
 
