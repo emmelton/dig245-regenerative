@@ -66,54 +66,49 @@ const data = [{
 
 function game() {
   // console.log(chosen);
-  // loop through chosen indexes, append to string
+
   let str = '';
-  for (let i = 0; i < game.length; i++) {
-    str += `<div class='row'>
-        <div class="col-12">
-          <h1 class='title'>THE CARD GAME GENERATOR</h1>
-        </div>
-      </div>
-    </div>
-    <div class='container'>
-      <div class='row'>
-        <p class='intro'>The next game you should play, even if you have to make a new purchase, is...</p>
-      </div>
-    </div>
+  let r = Math.floor(Math.random() * data.length);
+  str+= `
     <div class='row center'>
       <div class="col-12">
-        <p scope='info'>Name</p>
-        <p><a href="${data.name}" target="_blank"></p>
+        ${data[r].name}<br>
       </div>
     </div>
+
     <div class='row center'>
       <div class="col-12">
-        <p scope='info'>Description</p>
-        <p>${data.description}</p>
+      <h3>DESCRIPTION</h3>
+        ${data[r].description}<br>
       </div>
     </div>
+
     <div class='row center'>
       <div class="col-3">
-        <p scope='info'>Content</p>
-        <p>${data.content}<p>
+      <h3>CONTENT</h3>
+        ${data[r].content}<br>
       </div>
+
       <div class="col-3">
-        <p scope='info'>Rating</p>
-        <p>${data.rating}</p>
+      <h3>RATING</h3>
+        ${data[r].rating}<br>
       </div>
+
       <div class="col-3">
-        <p scope='info'>Players</p>
-        <p>${data.players}</p>
+      <h3>PLAYERS</h3>
+        ${data[r].players}<br>
       </div>
+
       <div class="col-3">
-        <p scope='info' id='game'>Time</p>
-        <p>${data.time}</p>
-        <p></p>
+      <h3>TIME</h3>
+        ${data[r].time}<br>
       </div>
-    </div>`;
-  }
+
+  `;
+
   return str;
 }
+
 
 //This got it to print in the console and in an alert, but I couldn't get it to the HTML page
 
@@ -121,8 +116,12 @@ function game() {
 // str = JSON.stringify(data, null, 4); // (Optional) beautiful indented output.
 // console.log(str); // Logs output to dev tools console.
 // alert(str); // Displays output using window.alert()
-//
-// document.getElementById('game').innerHTML = data;
+
+// document.getElementById('game').innerHTML = data[0].name;
+document.getElementById('game').innerHTML = game();
+
+
+
 
 
 //This made it generate into the console with the refresh of a page, but I
