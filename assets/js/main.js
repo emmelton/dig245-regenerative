@@ -24,7 +24,7 @@ const data = [{
     name: 'UNO',
     link: 'https://www.mattelgames.com/en-us/cards/uno',
     description: 'UNO® is a classic! In this game, players take turns placing cards from their hand into the center. Their goal is to match a card in their hand to the current card shown on top of the deck, either by color or number. There are also special action cards that allow for "game-changing" moments to help players win. Do not forget that when you are down to only one card, you must shout "UNO". The first player to zero cards in their hand wins!',
-    content: '112 cards, Rules of Play & Scoring',
+    content: '112 cards, Rules of Play',
     rating: '7+',
     players: '2-10',
     time: 'Varies'
@@ -42,7 +42,7 @@ const data = [{
     name: 'SPADES',
     link: 'https://bicyclecards.com/how-to-play/spades/',
     description: 'Spades is a trick-taking card game that anybody can take part of. It is usually played by four players in bridge-style partnerships, each being dealt thirteen cards of the fifty-two card deck. Spades are always the trump suit.',
-    content: 'None. Use any standard 52-card deck',
+    content: 'Any standard 52-card deck',
     rating: '13+',
     players: '2, 3, 4, 5+',
     time: '60 Minutes'
@@ -51,7 +51,7 @@ const data = [{
     name: 'EGYPTIAN RAT SCREW (ERS)',
     link: 'https://bicyclecards.com/how-to-play/egyptian-rat-screw/',
     description: 'Egyptian Rat Screw (ERS) is a multi-player game that combines chance with agility. It uses a standard 52-card deck. The objective is to win all the cards through a combination of drawing and slapping.',
-    content: 'None. Use any standard 52-card deck',
+    content: 'Any standard 52-card deck',
     rating: '8+',
     players: '2, 3, 4, 5+',
     time: 'Varies'
@@ -60,7 +60,7 @@ const data = [{
     name: 'GO FISH',
     link: 'https://bicyclecards.com/how-to-play/go-fish/',
     description: 'Go Fish is a childhood classic that amuses and entertains all types of card players, regardless of age. In this game, players aim to collect all four cards within a book (four of a kind). The player with the most books, wins.',
-    content: 'None. Use any standard 52-card deck',
+    content: 'Any standard 52-card deck',
     rating: '4+',
     players: '2, 3, 4, 5+',
     time: 'Varies'
@@ -84,7 +84,7 @@ function game() {
 
     <div class='row center mt-5'>
       <div class="col-12">
-      <h3>DESCRIPTION</h3>
+      <h3 class='desClass'>DESCRIPTION</h3>
         ${data[r].description}<br>
       </div>
     </div>

@@ -13,12 +13,20 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   h3 {
-    font-size: 25px;
+    font-size: 27px;
         padding: 10px;
   }
 }
+
+@media screen and (max-width: 800px) {
+  h3 {
+    font-size: 23px;
+        padding: 10px;
+  }
+}
+
 
 .title {
 font-family: Bowlby One, cursive;
@@ -26,22 +34,26 @@ font-style: normal;
 font-weight: normal;
 text-align: center;
 z-index: 2;
-font-size: 60px;
+font-size: 50px;
 }
 
 .arrayData {
   text-align: center;
-  font-size: 25px;
+  font-size: 20px;
   font-weight: lighter;
   font-family: Yaldevi Colombo, sans-serif;
 }
 
  .boxBackings {
-  font-size: 35px;
     font-family: Sunflower, sans-serif;
     background-color: rgba(196, 196, 196, 1);
     margin: 0px;
-    padding: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+.desClass {
+  font-family: Sunflower, sans-serif;
 }
 
 .intro {
@@ -81,8 +93,7 @@ a:active {
 }
 
 .difButton {
-  padding: 15px 25px 15px 25px;
-  border: 10px;
+  padding: 20px; 
   font-size: 24px;
   cursor: pointer;
   text-align: center;
