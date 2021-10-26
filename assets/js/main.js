@@ -95,7 +95,7 @@ const data = [{
   {
     name: 'NEW PHONE, WHO DIS?',
     link: 'https://whatdoyoumeme.com/products/new-phone-who-dis ',
-    description: 'Cards Against Humanity is a fill-in-the-blank party game that turns your awkward personality and lackluster social skills into hours of fun. Each round, one player asks a question from the black-colored card, and everyone else answers with their funniest white-colored card.',
+    description: 'New Phone, Who Dis? Is an adult party game. It is a 100% offline, text message party game. Compete with friends to create the funniest text message thread. Pair hilarious texts and replies to impress the judge and win the round!',
     content: '600 cards, Rules',
     rating: '17+',
     players: '4-20+',

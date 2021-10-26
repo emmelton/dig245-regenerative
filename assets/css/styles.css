@@ -80,7 +80,6 @@ z-index: 2;
 a {
   padding: 15px 25px 15px 25px;
   border: 10px;
-  font-size: 24px;
   font-family: Bowlby One, cursive;
   cursor: pointer;
   text-align: center;
@@ -128,6 +127,7 @@ a:active {
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
+
 
 @media screen and (max-width: 2800px) {
   h5 {
