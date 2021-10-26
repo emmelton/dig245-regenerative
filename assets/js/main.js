@@ -65,6 +65,24 @@ const data = [{
     players: '2, 3, 4, 5+',
     time: 'Varies'
   },
+  {
+    name: 'CRAZY EIGHTS',
+    link: 'https://bicyclecards.com/how-to-play/crazy-eights/',
+    description: 'Crazy Eights is a shedding game. The goal is to be the first player to get rid of all the cards in your hand. Starting to the left of the dealer, players must place one card face up on their starter pile. Each card played (other than an eight) must match the card showing on the starter pile, by either denomination or suit. If a player cannot play, cards are drawn from the top of the stock until a play is possible, or until the stock is exhausted. If unable, and the stock is exhausted, the player must pass. A player may draw from the stock, even if they have a playable card. All eights are wild cards, and they can be played at any time in a turn; the player just needs to specify a suit for it. The next player can play either the specified suit or an eight.',
+    content: 'Any standard 52-card deck',
+    rating: '4+',
+    players: '2, 3, 4, 5+',
+    time: 'Varies'
+  },
+  {
+    name: 'TRASH',
+    link: 'https://bicyclecards.com/how-to-play/trash/#filter',
+    description: 'through Ten. In this game, Aces count as one, cards 2-10 have their face values, Jacks are wild, and Queens and Kings automatically end the player’s turn. The first player draws from the stock. If the card is Ace through ten, the player places that card in its correct location in the layout (top left is Ace, then 2, then 3, and so on). To do this, the player must remove the face down card that is occupying that location and turn it face up. This card, in turn, is placed in its appropriate location, if available, displacing the next face card that was there. This continues until the player finds a card that cannot be placed. The player then discards the card, placing it face up next to the stockpile, and the turn passes to the next. Jacks can go in any spot. If the stockpile runs out before anyone completes their layout, shuffle the discard—except for the top card of discard.',
+    content: 'Any standard 52-card deck. ',
+    rating: '8+',
+    players: '2, 3, 4, 5+',
+    time: 'Varies',
+  }
 ];
 
 //This is modeled after Professor Mundy's work, but I don't really know how it works in his,
