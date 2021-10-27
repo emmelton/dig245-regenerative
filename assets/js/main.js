@@ -132,14 +132,14 @@ function game() {
   str += `
     <div class='row center mt-4'>
       <div class="col-12">
-        <a href='${data[r].link}' target='_blank'>${data[r].name}</a><br>
+        <p><a href='${data[r].link}' target='_blank'>${data[r].name}</a><br></p>
       </div>
     </div>
 
     <div class='row center mt-5'>
       <div class="col-12">
       <h3 class='desClass'>DESCRIPTION</h3>
-        ${data[r].description}<br>
+      <p>${data[r].description}</p><br>
       </div>
     </div>
 

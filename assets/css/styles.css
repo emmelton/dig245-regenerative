@@ -53,6 +53,13 @@ text-align: center;
 z-index: 2;
 }
 
+p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: Yaldevi Colombo, sans-serif;
+}
+
 .arrayData {
   text-align: center;
   font-size: 20px;
@@ -70,10 +77,12 @@ z-index: 2;
 
 .desClass {
   font-family: Sunflower, sans-serif;
+  text-align: center;
 }
 
 .intro {
   text-align: center;
+  font-family: Sunflower, sans-serif;
 }
 
 /* BUTTONS */
